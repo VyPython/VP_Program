@@ -1,0 +1,12 @@
+a=5
+print(type(a))
+b=5.0
+print(type(b))
+c=4.3
+print(type(c)) 
+d=-2
+print(type(d))
+e=100
+print(type(e))
+f=1.333
+print(type(f))

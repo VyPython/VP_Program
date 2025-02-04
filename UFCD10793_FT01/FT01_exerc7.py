@@ -6,3 +6,4 @@ c=(d/l)
 print("A distância percorrida é de:",c,"Km/l")
 #cl=(l/d)
 #print("O consumo médio é de:",cl,"l/Km")
+

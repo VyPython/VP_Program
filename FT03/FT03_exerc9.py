@@ -15,7 +15,7 @@ nome = input('Digita o teu nome: ')
 idade = int(input('Digita a tua idade: '))
 peso = float(input('Digita o teu peso: '))
 altura = float(input('Digita a tua altura: '))
-imc = peso / (altura ** 2)
+imc = round(peso / (altura ** 2),2)
 if imc < 17:
     print(nome, ': o teu IMC indica que estás Muito Abaixo do peso ideal')
 elif 17 <= imc < 18.5:

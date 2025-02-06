@@ -1,0 +1,31 @@
+'''Faz um programa que escreva o nome do mês que é introduzido, pelo utilizador, na
+forma numérica.'''
+
+mês=int(input("Introduza o número do mês:"))
+match mês:
+    case 1:
+        print("janeiro")
+    case 2:
+        print("fevereiro")
+    case 3:
+        print("março")
+    case 4:
+        print("abril")
+    case 5:
+        print("maio")
+    case 6:
+        print("junho")
+    case 7:
+        print("julho")
+    case 8:
+        print("agosto")
+    case 9:
+        print("setembro")
+    case 10:
+        print("outubro")
+    case 11:
+        print("novembro")
+    case 12:
+        print("dezembro")
+    case _:
+        print("Mês inválido")

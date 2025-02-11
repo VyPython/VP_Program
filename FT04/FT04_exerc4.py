@@ -2,7 +2,7 @@
 for i in range(1, 101):
     print('Olá')   
 
-''''''Escreve um programa para escrever no ecrã a palavra olá 100 vezes.'''
+'''Escreve um programa para escrever no ecrã a palavra olá 100 vezes.'''
 
 #adiciono um contador para guardar o número inicial
 contador = 1

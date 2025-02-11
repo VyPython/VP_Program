@@ -11,4 +11,11 @@ while contador <= 100:
     #imprime os olás
     print(f"{contador} Olá")
      #aumenta o contador para avançar para o próximo olá
-    contador += 1'''
+    contador += 1
+    
+    '''# Escreve um programa para escrever no ecrã a palavra olá 100 vezes
+contador = 0
+while contador <=100:     
+    print(contador, " - Olá")
+    contador = contador + 1'''
+# End of code

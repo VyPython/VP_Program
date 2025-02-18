@@ -18,6 +18,21 @@ for x in range (1,11):
     multiplicacao = numero * x
     print (f"{numero}*{x}={multiplicacao}\n")'''
     
-x = input('introduza o valor a multiplicar')
+'''x = input('introduza o valor a multiplicar')
 for i in range(1, 11):
-    print(int(x), 'x', i, '=', int(x) * i)
+    print(int(x), 'x', i, '=', int(x) * i)'''
+    
+
+while True:
+    try:
+        num = int(input("digite um número:"))
+        break
+    except ValueError:
+            print("Entrada inválida. Digite um número inteiro.")
+    except:
+            print('Erro inesperado. Tente novamente')
+    finally:
+        print("Fim de programa.")
+
+for i in range(1, 11):
+    print(int(num), 'X', i, '=', int(num) * i)

@@ -1,4 +1,6 @@
 '''Lista de exceções Específicas em Python'''
+
+
 ValueError          # Erro de conversão de tipo de dados para
 ZeroDivisionError   # Tentativa de divisão por zero
 FileNotFoundError   # O ficheiro solicitado não foi encontrado

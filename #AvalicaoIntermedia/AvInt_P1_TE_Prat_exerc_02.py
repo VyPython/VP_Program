@@ -1,4 +1,4 @@
-# 1) Reproduz o seguinte código.
+# 2) Reproduz o seguinte código.
 '''Peça dois números ao utilizador e trate a divisão por zero.'''
 
 try:

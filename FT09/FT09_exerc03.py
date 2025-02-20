@@ -11,16 +11,16 @@ Computadores_1 = {
 Computadores_1["Disco"] = ["128G", "256G"]
 
 # c. Verificar valor de RAM, solicitar ao utilizador para digitar um valor com verificação 
-#while True:
-#try:
-ram_input = int(input("Introduza um valor de RAM para verificar: "))
-if ram_input in Computadores_1["RAM"]:
-            print(f"O valor de RAM {ram_input}GB está presente na lista.")
-else:
-            print(f"O valor de RAM {ram_input}GB não está presente na lista.")
-            
-#except ValueError:
-#        print ("Erro: Digite um número inteiro válido.")
+while True:
+    try:
+        ram_input = int(input("Introduza um valor de RAM para verificar: "))
+        if ram_input in Computadores_1["RAM"]:
+                    print(f"O valor de RAM {ram_input}GB está presente na lista.")
+        else:
+                    print(f"O valor de RAM {ram_input}GB não está presente na lista.")
+        break
+    except ValueError:
+            print ("Erro: Digite um número inteiro válido.")
 
 
 # d. Acrescentar 16GB de RAM

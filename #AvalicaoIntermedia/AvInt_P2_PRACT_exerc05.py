@@ -51,7 +51,8 @@ ficheiro_origem = input("Digite o nome do ficheiro binário a copiar: ")
 ficheiro_origem = os.path.normpath(ficheiro_origem) 
 nome_ficheiro = os.path.basename(ficheiro_origem)
 diretorio_origem = os.path.dirname(ficheiro_origem)
-ficheiro_destino = os.path.join(diretorio_origem, "copia_" + nome_ficheiro)
+ficheiro_destino = os.path.join(diretorio_origem, f"copia_{nome_ficheiro}")
+
 # foi necessário usar o os.path.normpath para normalizar o caminho do ficheiro,
 # pois o input() pode retornar um caminho com barras invertidas (\) em vez de barras normais (/).
 # O os.path.basename() retorna apenas o nome do ficheiro sem o caminho.

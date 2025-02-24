@@ -1,7 +1,7 @@
 # PRÁTICA - RESOLVE OS SEGUINTES EXERCÍCIOS
 #Reproduz o seguinte Código que tem como objetivo:
 
-# 4 - Reproduz o seguinte código que tem em conta o enunciado a seguir apresentado:
+# 5 - Reproduz o seguinte código que tem em conta o enunciado a seguir apresentado:
 '''A empresa DataSecure precisa de um sistema que copie ficheiros binários de forma
 eficiente e segura. Para garantir a integridade dos dados, o sistema deve:
 a) Solicitar o nome de um ficheiro binário (ex.: imagem, PDF, áudio) que o

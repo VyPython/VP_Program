@@ -1,0 +1,3 @@
+Esta é a nova primeira linha.
+Segunda linha do ficheiro.Esta é a nova linha adicionada.
+Esta é a nova linha adicionada.

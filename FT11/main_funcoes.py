@@ -19,3 +19,14 @@ def perimetro_area_quadrado(lado):
     perimetro = 4 * lado
     area = lado * lado
     return f'Perímetro: {perimetro} Área: {area}'
+
+
+''' Escreve uma função em Python que dada uma lista de números imprime a soma
+dos valores dessa lista, o número de elementos da lista e a media desses 
+valores.'''
+# Função que calcula a soma, a quantidade de elementos e a média de uma lista
+def soma_media(lista):
+    soma = sum(lista)
+    quantidade = len(lista)
+    media = soma / quantidade
+    return f'Soma: {soma} Quantidade: {quantidade} Média: {media}'

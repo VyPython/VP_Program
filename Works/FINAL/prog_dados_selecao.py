@@ -5,13 +5,13 @@ import pandas as pd
 
 
 # Carregar os dados do CSV
-FILE_PATH = "C:\\Historico\\DadosSelecao.csv"
-def load_data():
+#FILE_PATH = "C:\\Historico\\DadosSelecao.csv"
+'''def load_data():
     try:
         return pd.read_csv(FILE_PATH, encoding="ISO-8859-1")
     except FileNotFoundError:
         return pd.DataFrame(columns=["Jogo", "Data", "Local", "Adversário", "GM", "GS", "Competição", "Técnico", "Marcadores Golos", "Golos marcados", "Tipo Golo", "Estreias"])
-
+'''
 def save_data(df):
     df.to_csv(FILE_PATH, index=False, encoding="ISO-8859-1")
 
@@ -20,7 +20,7 @@ root = tk.Tk()
 root.title("Gerenciador de Jogos")
 root.geometry("800x500")
 
-data = load_data()
+data = pd.load_data()
 '''
 def show_data():
     for row in tree.get_children():

@@ -1,3 +1,4 @@
+FILE_PATH = "C:\\Historico\\DadosSelecao.csv"
 def load_data():
     try:
         return pd.read_csv(FILE_PATH, encoding="ISO-8859-1")

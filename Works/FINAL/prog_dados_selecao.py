@@ -1,9 +1,19 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-#import pandas as pd
-from func_pandas import load_data, save_data
-#myfunc as mf
+import pandas as pd
+#from func_pandas import load_data, save_data
 
+
+FILE_PATH="C:\\historico\\dadosseleccao.csv"
+#read_csv = FILE_PATH
+def load_data():
+    try:
+        return pd.read_csv(FILE_PATH, encoding="ISO-8859-1")
+    except FileNotFoundError:
+        return pd.DataFrame(columns=["Jogo", "Data", "Local", "Adversário", "GM", "GS", "Competição", "Técnico", "Marcadores Golos", "Golos marcados", "Tipo Golo", "Estreias"])
+
+def save_data(df):
+    df.to_csv(FILE_PATH, index=False, encoding="ISO-8859-1")
 # Criar a interface gráfica
 root = tk.Tk()
 root.title("Gerenciador de Jogos")
